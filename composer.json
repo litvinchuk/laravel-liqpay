@@ -1,0 +1,36 @@
+{
+    "name": "litvinchuk/laravel-liqpay",
+    "description": "Laravel liqpay library.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "liqpay"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "liqpay/liqpay": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Litvinchuk\\LaravelLiqpay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Litvinchuk\\LaravelLiqpay\\ServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
