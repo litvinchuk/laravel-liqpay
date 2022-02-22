@@ -1,16 +1,5 @@
 # Installation
 
-Add repository to `composer.json`
-
-```json
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/litvinchuk/laravel-liqpay.git"
-    }
-]
-```
-
 Install library: `composer require litvinchuk/laravel-liqpay`
 
 Register Tool in `NovaServiceProvider`
